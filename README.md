@@ -5,6 +5,10 @@ Simplest way to synchronize GIT repository with production build on server.
 
 `npm install simplestci --save`
 
+Add following lines to your main app-entry-point script e.g. server.js
+
+Code below assumes that server.js been added to pm2 to keep it alive, but you can use any other tool for that.
+
 ```javascript
 const commands = "git pull && npm install && pm2 restart server"
 const port=17324
