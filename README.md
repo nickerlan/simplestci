@@ -5,10 +5,10 @@ Simplest way to synchronize GIT repository with production build on server.
 
 `npm install simplestci --save`
 
-```
+```javascript
 const commands = "git pull && npm install && pm2 restart server"
 const port=17324
-comst secretlink='/themostserctetlinkever'
+const secretlink='/themostserctetlinkever'
 var sci = require('simplestci')(commands,port,secretlink)
 ```
 
