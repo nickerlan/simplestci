@@ -1,0 +1,25 @@
+{
+  "name": "simplestci",
+  "version": "1.0.0",
+  "description": "deploys new versions of nodejs apps immediately after github pushes",
+  "main": "simplestci.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickerlan/simplestci.git"
+  },
+  "keywords": [
+    "ci",
+    "nodejs",
+    "git",
+    "github"
+  ],
+  "author": "Nick Erlan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickerlan/simplestci/issues"
+  },
+  "homepage": "https://github.com/nickerlan/simplestci#readme"
+}
