@@ -1,0 +1,2 @@
+# simplestci
+Simplest CI
