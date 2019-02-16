@@ -11,8 +11,8 @@ Code below assumes that server.js been added to pm2 to keep it alive, but you ca
 
 ```javascript
 const commands = "git pull && npm install && pm2 restart server"
-const port=17324
-const secretlink='/themostserctetlinkever'
+const port = 17324
+const secretlink = '/themostserctetlinkever'
 var sci = require('simplestci')(commands,port,secretlink)
 ```
 
