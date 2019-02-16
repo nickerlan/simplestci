@@ -1,5 +1,5 @@
 # Simplest GIT CI System for NodeJS project
-The Goal is to find the simplest way to synchronize GIT repository with production build on server.
+The goal is to find the simplest way to synchronize GIT repository with production build on server.
 Assuming usage of nginx and pm2
 
 ## Usage
@@ -21,7 +21,7 @@ Add following lines to /etc/nginx/sites-available/default
 
 ## Contribution
 
-Lets find eaisier and more universal ways together.
+Lets find eaisier and more universal ways together. Current version was just my quick personal workaround on the topic.
 You are welcome to push any updates here.
 
 
