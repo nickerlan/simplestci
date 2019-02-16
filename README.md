@@ -1,15 +1,20 @@
 # Simplest GIT CI System for NodeJS project
-The goal is to find the simplest way to synchronize GIT repository with production build on server.
-Assuming usage of nginx and pm2
+Simplest way to synchronize GIT repository with production build on server.
 
 ## Usage
 
-'npm install simplestci'
+`npm install simplestci --save`
 
-`const COMMANDS = "git pull && npm install && pm2 restart server"`
+```
+const commands = "git pull && npm install && pm2 restart server"
+const port=17324
+comst secretlink='/themostserctetlinkever'
+var sci = require('simplestci')(commands,port,secretlink)
+```
 
-`var sci = require('simplestci')(COMMANDS,PORT,ADDRESS)`
+Specify commands that fits your deployment flow.
 
+Add weeb hook in github settings to yourdomain.com:port/themostserctetlinkever
 
 
 ## Contribution
